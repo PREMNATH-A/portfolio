@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+.logo{
+    width: 100%;
+    height: 17%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sublogo{
+    width: 85%;
+    height:100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.logoimg{
+    width: 25%;
+    height: 20%;
+    display: flex;
+}
+
+.menus{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    /* gap: 25px; */
+    font-family: "Lato",sans-serif;
+    font-size: 18px;
+}
+.menus a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    width: 100%;
+    height: 150vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subheader{
+    width: 75%;
+    height: 90%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* justify-content: center; */
+}
+.subheader h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+hr{
+    width: 13%;
+    height: 0.5%;
+    color: black;
+    background-color: black;
+}
+.subhead{
+    width: 42%;
+    height: 15%;
+    /* background-color: aqua; */
+    font-size: 22px;
+    line-height: 30px;
+    font-family:"Lato",sans-serif;
+    color: #979797;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    
+}
+.rescon{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;   
+}
+.leftcon{
+    width: 100%;
+    height: 100%;
+    background-color: chartreuse;
+
+}
+.rightcon{
+    width: 100%;
+    height: 100%;
+    background-color: chocolate;
+
+}
+
+
+/* .resumecontent{
+    width: 50%;
+    height: 75%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ressumecon{
+    width: 80%;
+    height: 90%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftconres{
+    width: 75%;
+    height: 80%;
+    background-color: blue;
+    font-size: 28px;
+    /* color:#009BDE; */
+/* } */
+/* .headl8{ */
+    /* color: #009BDE; */
+    /* font-family:"Lato",sans-serif; */
+/* }  */

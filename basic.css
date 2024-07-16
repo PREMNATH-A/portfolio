@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.displaydiv{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    /* display: flex; */
+    /* align-items: center; */
+
+}

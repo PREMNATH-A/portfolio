@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+.logo{
+    width: 100%;
+    height: 17%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sublogo{
+    width: 85%;
+    height:100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.logoimg{
+    width: 25%;
+    height: 20%;
+    display: flex;
+}
+.menus{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    /* gap: 25px; */
+    font-family: "Lato",sans-serif;
+    font-size: 16px;
+}
+.menus a{
+    text-decoration: none;
+    color: b;
+}
+.bannercontent {
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../ASSETS/banner_03-1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.bannercon{
+    width: 80%;
+    height: 45%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    justify-content: space-evenly;
+}
+.bannercon h2{
+    color: #009BDE;
+}
+.iconsdiv{
+    width: 50%;
+    height: 20%;
+    /* background-color: greenyellow; */
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
+}
+.iconsdiv i{
+    width: 6%;
+    height: 51%;
+    background-color: #979797;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: white;
+    
+    
+}
