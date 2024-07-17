@@ -152,7 +152,7 @@ body{
     gap: 10px;
 }
 .headright{
-    width: 90%;
+    width: 100%;
     height: 50%;
     /* background-color: aqua; */
     color: #0D1218;
@@ -191,7 +191,7 @@ body{
     color: #009BDE;
 }
 .aboutskills{
-    width: 90%;
+    width: 100%;
     height: 50%;
     /* background-color: aqua; */
     /* color: #0D1218; */
@@ -288,3 +288,119 @@ body{
     /* background-color: #009BDE; */
     color: #009BDE;
 }
+@media(max-width:1200px){
+    .logo{
+        height: 12%;
+    }
+    .logoimg{
+        width: 45%;
+    }
+    .bannercontent{
+        height: 88%;
+    }
+    .bannercon{
+        width: 94%;
+        height: 35%;
+    }
+    .iconsdiv{
+        width: 69%;
+    }
+    .menus{
+        font-size: 22px;
+        width: 86%;
+    }
+    .leftcontent{
+        width: 46%;
+    }
+    .graphic{
+        width: 320px;
+        height: 120px;
+        font-size: 14px;
+
+    }
+    .content{
+        height: 36%;
+    }
+    .headright{
+        height: 31%;
+    }
+    .colon{
+        gap: 21.5px;
+    }
+    .heading{
+        gap: 21px;
+    }
+    .list{
+        gap: 15px;
+    }
+    .contentdown{
+        width: 41%;
+        gap: 30px;
+    }
+} 
+@media(max-width:600px){
+    .logo{
+        height: 15%;
+    }
+    .logoimg{
+        width: 43%;
+
+    }
+    .sublogo{
+        width: 98%;
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menus{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 14px;
+    }
+    .leftcontent{
+        width: 100%;
+        font-size: 19px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+    }
+    .content{
+        font-size: 16px
+    }
+    .aboutmecontent{
+        height: auto;
+    }
+    .aboutmecon{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .details{
+        width: 100%;
+
+    }
+    .content1 p{
+        gap: 6px;
+    }
+    .head{
+        gap: 3px;
+    }
+    .rightcontent{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .headright{
+        gap: 25px;
+    }
+    .graphic{
+        text-align: center;
+    }
+}   
