@@ -46,6 +46,9 @@ body{
     text-decoration: none;
     color: black;
 }
+.menus a:hover{
+    color: aqua;
+}
 .bannercontent {
     width: 100%;
     height: 100%;

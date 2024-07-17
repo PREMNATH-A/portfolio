@@ -271,7 +271,9 @@ body{
 .internship p{
     color: #55575D;
 }
-
+.menus a:hover{
+    color: aqua;
+}
 /* .resumecontent{
     width: 50%;
     height: 75%;
@@ -397,6 +399,9 @@ body{
     }
     .subheader h2{
         font-size: 30px ;
+    }
+    .menus a:hover{
+        color: aqua;
     }
 }
 

@@ -288,6 +288,9 @@ body{
     /* background-color: #009BDE; */
     color: #009BDE;
 }
+.menus a:hover{
+    color: aqua;
+}
 @media(max-width:1200px){
     .logo{
         height: 12%;
@@ -403,4 +406,5 @@ body{
     .graphic{
         text-align: center;
     }
+    
 }   
